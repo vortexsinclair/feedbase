@@ -13,7 +13,7 @@
   <p>
     <a href="https://feedbase.app">Website</a> ·
     <a href="https://docs.feedbase.app">Docs</a> ·
-    <a href="https://feedbase.app/discord">Discord</a> ·
+    <a href="https://discord.gg/aYYFyfJSJC">Discord</a> ·
     <a href="https://github.com/breadddevv/feedbase/releases">Changelog</a>
   </p>
 
