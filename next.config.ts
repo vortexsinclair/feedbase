@@ -3,6 +3,7 @@ import createMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: ['192.168.1.70'],
   images: {
     remotePatterns: [
       {
