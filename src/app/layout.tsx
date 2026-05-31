@@ -35,7 +35,13 @@ export default function RootLayout({
         <BanCheck />
         <Navbar />
         {children}
-        <Toaster position="bottom-center" />
+        <Toaster position="bottom-center" toastOptions={{
+          style: {
+            background: "#1a1a1a",
+            color: "#fff",
+            borderRadius: "12px",
+          }
+        }} />
         <Footer />
       </body>
     </html>
