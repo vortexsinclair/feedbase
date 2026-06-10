@@ -9,7 +9,7 @@ services:
       db: # Disable this if you are using an external Postgres database
         condition: service_healthy
     ports:
-      - "3001:3000" # This is in the format of <host_port>:<container_port>. You can change the host port, but not the container port.
+      - "3000:3000" # This is in the format of <host_port>:<container_port>. You can change the host port, but not the container port.
 
   # Comment out everything below this point if you are using an external Postgres database
   db:
